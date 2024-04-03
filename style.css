@@ -6,12 +6,10 @@ body {
 }
 
 @supports (-webkit-touch-callout: none) {
-
   #chatcontainer,
   #container {
     height: -webkit-fill-available !important;
   }
-
 }
 
 #container {
@@ -45,7 +43,6 @@ body {
   background-color: #343541;
   color: white;
   justify-content: center;
-
 }
 
 .header h1 {
@@ -92,10 +89,9 @@ body {
   padding: 0.5em 0;
 }
 
-
 .profile-picture {
-  width: 30px;
-  height: 30px;
+  width: 57px;
+  height: 57px;
 }
 
 .profile-picture img {
@@ -131,7 +127,6 @@ body {
   margin-left: 0;
 }
 
-
 #input-area {
   width: 100%;
   padding-top: 20px;
@@ -155,7 +150,7 @@ body {
 
 #input-area input {
   width: calc(100% - 2em);
-  background-color: #40414F;
+  background-color: #40414f;
   border: none;
   color: #ececf1;
   font-size: 1em;
@@ -181,5 +176,4 @@ body {
 
 .disclaimer a {
   color: #818f7b;
-
 }
